@@ -60,7 +60,6 @@
 			"subclassShortName": "Vampire",
 			"subclassSource": "OrderVampire",
 			"level": 3,
-			"header": 1,
 			"entries": [
 				"Starting when you choose this archetype at 3rd level, you begin to adopt the improved abilities of a natural predator. You gain advantage on Wisdom (Perception) checks that rely on hearing or smell."
 			]
@@ -73,7 +72,6 @@
 			"subclassShortName": "Vampire",
 			"subclassSource": "OrderVampire",
 			"level": 3,
-			"header": 1,
 			"entries": [
 				"Upon choosing this archetype at 3rd level, you begin to learn to control the vampiric curse that now lives in your blood. As a bonus action, you can transform into your hybrid form for up to 1 hour. You can speak, use equipment, and wear armor in this form. You can revert to your normal form earlier as a bonus action. You automatically revert to your normal form if you fall unconscious, drop to 0 hit points, or die. This feature replaces the rules for Vampirism within the Monster's Manual.", 
                 "Once you use this feature, you must finish a short or long rest before you can use it again. While you are transformed, you gain the following features:",
@@ -124,7 +122,6 @@
             "subclassShortName": "Vampire",
             "subclassSource": "OrderVampire",
             "level": 3,
-            "header": 1,
             "entries": [
                 "Those inducted into the Order of the Vampire choose this path with conviction, understanding the terrible burden it is and the challenges it brings. Where most who embrace this curse grow wicked, mad, even murderous, these blood hunters accept the gifts of the beast while maintaining control through intense training and blood magic. These factors enable a member of the Order of the Vampire to prevent the spread of their curse through blood, should they wish to. One of the most sacred oaths of this order is to never infect another without the order's sanction.",
                 "Should a member of the Order of the Vampire be cured of the vampiric curse, it is a terrible shame on their name, the order, and those who carry the curse still. There have been passages written about members being cleansed against their will, but those brothers and sisters readily return to the order to undergo a renewed initiation of The Taming, reintroducing the curse to their bodies and restoring their honor."
@@ -138,7 +135,6 @@
 			"subclassShortName": "Vampire",
 			"subclassSource": "OrderVampire",
 			"level": 7,
-			"header": 2,
 			"entries": [
 				"At 7th level you gain increased agility. Your speed increases by 10 feet. You also can add 10 feet to your long jump distance and 3 feet to your high jump distance.",
 				"In addition, you gain even further agility when you are transformed using your Hybrid Transformation. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.",
@@ -153,7 +149,6 @@
 			"subclassShortName": "Vampire",
 			"subclassSource": "OrderVampire",
 			"level": 11,
-			"header": 2,
 			"entries": [
 				"Starting at 11th level, you learn to unleash and control more of the vampire within. You can use your Hybrid Transformation feature twice, regaining all expended uses when you finish a short or long rest. In addition, your hybrid form gains the Vampiric Regeneration feature.",
                 {
@@ -170,7 +165,6 @@
 			"subclassShortName": "Vampire",
 			"subclassSource": "OrderVampire",
 			"level": 11,
-			"header": 2,
 			"entries": [
 				"At the start of each of your turns, you regain hit points equal to 1 + your Constitution modifier (minimum of 1) if you have at least 1 hit point and no more than half of your hit points left."
 			]
@@ -183,7 +177,6 @@
 			"subclassShortName": "Vampire",
 			"subclassSource": "OrderVampire",
 			"level": 15,
-			"header": 2,
 			"entries": [
 				"At 15th level, you can escape in a mist like a vampire. When a creature that has been branded by your Brand of Castigation targets you with an attack, you can use your reaction to impose disadvantage on that attack. After the attack you can then teleport to a point within 30ft of you that you can see."
 			]
@@ -196,7 +189,6 @@
 			"subclassShortName": "Vampire",
 			"subclassSource": "OrderVampire",
 			"level": 18,
-			"header": 2,
 			"entries": [
 				"At 18th level, you have wrestled your inner predator and mastered it. You can use your Hybrid Transformation feature an unlimited number of times, and your hybrid form can now last indefinitely. You also gain the Blood Curse of the Souleater for your Blood Maledict feature. This does not count against your number of blood curses known.",
                 "You always have spiderclimb active.",
@@ -214,7 +206,6 @@
 			"subclassShortName": "Vampire",
 			"subclassSource": "OrderVampire",
 			"level": 18,
-			"header": 2,
             "entries": [
                 "When a creature that isn't a construct or undead is reduced to 0 hit points within 30 feet of you, you can use your reaction to siphon their blood power. Until the end of your next turn, your weapon attacks have advantage.",
                 {
