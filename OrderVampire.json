@@ -1,0 +1,188 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "OrderoftheVampire",
+				"abbreviation": "Vampire",
+				"full": "Order of the Vampire",
+				"version": "1.0",
+				"targetSchema": "1.5.0"
+			}
+		],
+		"dateAdded": 1616026002,
+		"dateLastModified": 1616026002
+	},
+	"subclass": [
+		{
+			"name": "Order of the Vampire",
+			"shortName": "Vampire",
+			"source": "OrderoftheVampire",
+			"subclassFeatures": [
+				"Order of the Vampire|Blood Hunter||Vampire|OrderoftheVampire|3",
+				"Stalker's Prowess|Blood Hunter||Vampire|OrderoftheVampire|7",
+				"Advanced Transformation|Blood Hunter||Vampire|OrderoftheVampire|11",
+				"Misty Escape|Blood Hunter||Vampire|OrderoftheVampire|15",
+                "Hybrid Transformation Mastery||Vampire|OrderoftheVampire|18"
+			],
+			"className": "Blood Hunter",
+			"classSource": "CR"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Order of the Vampire",
+			"source": "OrderoftheVampire",
+			"className": "Blood Hunter",
+			"classSource": "CR",
+			"subclassShortName": "Vampire",
+			"subclassSource": "OrderoftheVampire",
+			"level": 3,
+			"entries": [
+				"Of the many terrible curses that plague the realm, few are as ancient or as feared as Vampirism. Passed through blood, this affliction seeds a host with the savage strength and hunger for violence of a vampire. The Order of the Vampire is a proud order of blood hunters who undergo \"The Taming,\"a ceremonial inflicting of vampirism from a senior member. These hunters then use their abilities to harness the power of the monster they harbor without losing themselves to it. Through intense honing of one's own willpower, combined with the secrets of the order's blood magic rituals, members learn to control and unleash their hybrid form for short periods of time. Enhanced physical prowess and agility make these warriors a terrible foe to any evil that crosses their path. Yet, no training is perfect, and without care and complete focus, even the greatest of blood hunters can temporarily lose themselves to the bloodlust.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Heightened Senses|Blood Hunter||Vampire|OrderoftheVampire|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hybrid Transformation|Blood Hunter||Vampire|OrderoftheVampire|3"
+				}
+			]
+		},
+		{
+			"name": "Heightened Senses",
+			"source": "OrderoftheVampire",
+			"className": "Blood Hunter",
+			"classSource": "CR",
+			"subclassShortName": "Vampire",
+			"subclassSource": "OrderoftheVampire",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this archetype at 3rd level, you begin to adopt the improved abilities of a natural predator. You gain advantage on Wisdom (Perception) checks that rely on hearing or smell."
+			]
+		},
+		{
+			"name": "Hybrid Transformation",
+			"source": "OrderoftheVampire",
+			"className": "Blood Hunter",
+			"classSource": "CR",
+			"subclassShortName": "Vampire",
+			"subclassSource": "OrderoftheVampire",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Upon choosing this archetype at 3rd level, you begin to learn to control the vampiric curse that now lives in your blood. As a bonus action, you can transform into your hybrid form for up to 1 hour. You can speak, use equipment, and wear armor in this form. You can revert to your normal form earlier as a bonus action. You automatically revert to your normal form if you fall unconscious, drop to 0 hit points, or die. This feature replaces the rules for Vampirism within the Monster's Manual.", 
+                "Once you use this feature, you must finish a short or long rest before you can use it again. While you are transformed, you gain the following features:",
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Feral Might",
+                            "entries": [
+                               "You have advantage on Strength checks and Strength saving throws."
+                            ]
+                        }
+                    ]                  
+                },
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Celerity",
+                            "entries": [
+                               " Your Dexterity score increases by 3, as does your Dexterity maximum. This bonus increases by 1 at 11th level (+4) and 18th level (+5). As a side effect, you gain disadvantage on Wisdom saving throws."
+                            ]
+                        }
+                    ]  
+                },
+                {
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Bloodlust",
+                            "entries": [
+                               "If you begin your turn with no more than half of your maximum hit points, you must succeed on a DC 8 Wisdom saving throw or move directly towards the nearest creature to you and use the Attack action against that creature. You can choose whether or not to use your Extra Attack feature for this frenzied attack. If there is more than one possible target, roll to randomly determine the target. You then regain control for the remainder of your turn. If you are under an effect that prevents you from concentrating (like the barbarian's Rage feature), you automatically fail this saving throw."
+                            ]
+                        }
+                    ]      
+                }
+			]
+		},
+		{
+			"name": "Stalker's Prowess",
+			"source": "OrderoftheVampire",
+			"className": "Blood Hunter",
+			"classSource": "CR",
+			"subclassShortName": "Vampire",
+			"subclassSource": "OrderoftheVampire",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level you gain increased agility. Your speed increases by 10 feet. You also can add 10 feet to your long jump distance and 3 feet to your high jump distance.",
+				"In addition, you gain even further agility when you are transformed using your Hybrid Transformation. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.",
+                "While you are transformed, you have spider climb. You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+			]
+		},
+		{
+			"name": "Advanced Transformation",
+			"source": "OrderoftheVampire",
+			"className": "Blood Hunter",
+			"classSource": "CR",
+			"subclassShortName": "Vampire",
+			"subclassSource": "OrderoftheVampire",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Starting at 11th level, you learn to unleash and control more of the vampire within. You can use your Hybrid Transformation feature twice, regaining all expended uses when you finish a short or long rest. In addition, your hybrid form gains the Vampiric Regeneration feature.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Vampiric Regenration|Blood Hunter||Vampire|OrderoftheVampire"
+                }
+			]
+		},
+        {
+			"name": "Vampiric Regeneration",
+			"source": "OrderoftheVampire",
+			"className": "Blood Hunter",
+			"classSource": "CR",
+			"subclassShortName": "Vampire",
+			"subclassSource": "OrderoftheVampire",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At the start of each of your turns, you regain hit points equal to 1 + your Constitution modifier (minimum of 1) if you have at least 1 hit point and no more than half of your hit points left."
+			]
+		},
+		{
+			"name": "Misty Escape",
+			"source": "OrderoftheVampire",
+			"className": "Blood Hunter",
+			"classSource": "CR",
+			"subclassShortName": "Vampire",
+			"subclassSource": "OrderoftheVampire",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you can escape in a mist like a vampire. When a creature that has been branded by your Brand of Castigation targets you with an attack, you can use your reaction to impose disadvantage on that attack. After the attack you can then teleport to a point within 30ft of you that you can see."
+			]
+		},
+        {
+			"name": "Hybrid Transformation Mastery",
+			"source": "OrderoftheVampire",
+			"className": "Blood Hunter",
+			"classSource": "CR",
+			"subclassShortName": "Vampire",
+			"subclassSource": "OrderoftheVampire",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you have wrestled your inner predator and mastered it. You can use your Hybrid Transformation feature an unlimited number of times, and your hybrid form can now last indefinitely. You also gain the Blood Curse of the Souleater for your Blood Maledict feature. This does not count against your number of blood curses known.",
+                "You always have spiderclimb active."
+			]
+		}
+	]
+}
