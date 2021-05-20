@@ -2,11 +2,10 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "OrderoftheVampire",
+				"json": "OrderVampire",
 				"abbreviation": "Vampire",
 				"full": "Order of the Vampire",
-				"version": "1.0",
-				"targetSchema": "1.5.0"
+				"version": "1.0"
 			}
 		],
 		"dateAdded": 1616026002,
@@ -16,46 +15,50 @@
 		{
 			"name": "Order of the Vampire",
 			"shortName": "Vampire",
-			"source": "OrderoftheVampire",
+			"source": "OrderVampire",
+            "className": "Blood Hunter",
+			"classSource": "BH2020",
 			"subclassFeatures": [
-				"Order of the Vampire|Blood Hunter||Vampire|OrderoftheVampire|3",
-				"Stalker's Prowess|Blood Hunter||Vampire|OrderoftheVampire|7",
-				"Advanced Transformation|Blood Hunter||Vampire|OrderoftheVampire|11",
-				"Misty Escape|Blood Hunter||Vampire|OrderoftheVampire|15",
-                "Hybrid Transformation Mastery||Vampire|OrderoftheVampire|18"
-			],
-			"className": "Blood Hunter",
-			"classSource": "CR"
+				"Order of the Vampire|Blood Hunter|BH2020|Vampire|OrderVampire|3",
+				"Stalker's Prowess|Blood Hunter|BH2020|Vampire|OrderVampire|7",
+				"Advanced Transformation|Blood Hunter|BH2020|Vampire|OrderVampire|11",
+				"Misty Escape|Blood Hunter|BH2020|Vampire|OrderVampire|15",
+                "Hybrid Transformation Mastery|Blood Hunter|BH2020|Vampire|OrderVampire|18"
+			]
 		}
 	],
 	"subclassFeature": [
 		{
 			"name": "Order of the Vampire",
-			"source": "OrderoftheVampire",
+			"source": "OrderVampire",
 			"className": "Blood Hunter",
-			"classSource": "CR",
+			"classSource": "BH2020",
 			"subclassShortName": "Vampire",
-			"subclassSource": "OrderoftheVampire",
+			"subclassSource": "OrderVampire",
 			"level": 3,
 			"entries": [
 				"Of the many terrible curses that plague the realm, few are as ancient or as feared as Vampirism. Passed through blood, this affliction seeds a host with the savage strength and hunger for violence of a vampire. The Order of the Vampire is a proud order of blood hunters who undergo \"The Taming,\"a ceremonial inflicting of vampirism from a senior member. These hunters then use their abilities to harness the power of the monster they harbor without losing themselves to it. Through intense honing of one's own willpower, combined with the secrets of the order's blood magic rituals, members learn to control and unleash their hybrid form for short periods of time. Enhanced physical prowess and agility make these warriors a terrible foe to any evil that crosses their path. Yet, no training is perfect, and without care and complete focus, even the greatest of blood hunters can temporarily lose themselves to the bloodlust.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Heightened Senses|Blood Hunter||Vampire|OrderoftheVampire|3"
+					"subclassFeature": "Heightened Senses|Blood Hunter|BH2020|Vampire|OrderVampire|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hybrid Transformation|Blood Hunter||Vampire|OrderoftheVampire|3"
-				}
+					"subclassFeature": "Hybrid Transformation|Blood Hunter|BH2020|Vampire|OrderVampire|3"
+				},
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "The Onus of Vampirism|Blood Hunter|BH2020|Vampire|OrderVampire|3"
+                }
 			]
 		},
 		{
 			"name": "Heightened Senses",
-			"source": "OrderoftheVampire",
+			"source": "OrderVampire",
 			"className": "Blood Hunter",
-			"classSource": "CR",
+			"classSource": "BH2020",
 			"subclassShortName": "Vampire",
-			"subclassSource": "OrderoftheVampire",
+			"subclassSource": "OrderVampire",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -64,11 +67,11 @@
 		},
 		{
 			"name": "Hybrid Transformation",
-			"source": "OrderoftheVampire",
+			"source": "OrderVampire",
 			"className": "Blood Hunter",
-			"classSource": "CR",
+			"classSource": "BH2020",
 			"subclassShortName": "Vampire",
-			"subclassSource": "OrderoftheVampire",
+			"subclassSource": "OrderVampire",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -112,13 +115,28 @@
                 }
 			]
 		},
+        {
+            "type": "inset",
+            "name": "The Onus of Vampirism",
+            "source": "OrderVampire",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Vampire",
+            "subclassSource": "OrderVampire",
+            "level": 3,
+            "header": 1,
+            "entries": [
+                "Those inducted into the Order of the Vampire choose this path with conviction, understanding the terrible burden it is and the challenges it brings. Where most who embrace this curse grow wicked, mad, even murderous, these blood hunters accept the gifts of the beast while maintaining control through intense training and blood magic. These factors enable a member of the Order of the Vampire to prevent the spread of their curse through blood, should they wish to. One of the most sacred oaths of this order is to never infect another without the order's sanction.",
+                "Should a member of the Order of the Vampire be cured of the vampiric curse, it is a terrible shame on their name, the order, and those who carry the curse still. There have been passages written about members being cleansed against their will, but those brothers and sisters readily return to the order to undergo a renewed initiation of The Taming, reintroducing the curse to their bodies and restoring their honor."
+            ]
+        },
 		{
 			"name": "Stalker's Prowess",
-			"source": "OrderoftheVampire",
+			"source": "OrderVampire",
 			"className": "Blood Hunter",
-			"classSource": "CR",
+			"classSource": "BH2020",
 			"subclassShortName": "Vampire",
-			"subclassSource": "OrderoftheVampire",
+			"subclassSource": "OrderVampire",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -129,28 +147,28 @@
 		},
 		{
 			"name": "Advanced Transformation",
-			"source": "OrderoftheVampire",
+			"source": "OrderVampire",
 			"className": "Blood Hunter",
-			"classSource": "CR",
+			"classSource": "BH2020",
 			"subclassShortName": "Vampire",
-			"subclassSource": "OrderoftheVampire",
+			"subclassSource": "OrderVampire",
 			"level": 11,
 			"header": 2,
 			"entries": [
 				"Starting at 11th level, you learn to unleash and control more of the vampire within. You can use your Hybrid Transformation feature twice, regaining all expended uses when you finish a short or long rest. In addition, your hybrid form gains the Vampiric Regeneration feature.",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Vampiric Regenration|Blood Hunter||Vampire|OrderoftheVampire"
+                    "subclassFeature": "Vampiric Regeneration|Blood Hunter|BH2020|Vampire|OrderVampire|11"
                 }
 			]
 		},
         {
 			"name": "Vampiric Regeneration",
-			"source": "OrderoftheVampire",
+			"source": "OrderVampire",
 			"className": "Blood Hunter",
-			"classSource": "CR",
+			"classSource": "BH2020",
 			"subclassShortName": "Vampire",
-			"subclassSource": "OrderoftheVampire",
+			"subclassSource": "OrderVampire",
 			"level": 11,
 			"header": 2,
 			"entries": [
@@ -159,11 +177,11 @@
 		},
 		{
 			"name": "Misty Escape",
-			"source": "OrderoftheVampire",
+			"source": "OrderVampire",
 			"className": "Blood Hunter",
-			"classSource": "CR",
+			"classSource": "BH2020",
 			"subclassShortName": "Vampire",
-			"subclassSource": "OrderoftheVampire",
+			"subclassSource": "OrderVampire",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -172,17 +190,40 @@
 		},
         {
 			"name": "Hybrid Transformation Mastery",
-			"source": "OrderoftheVampire",
+			"source": "OrderVampire",
 			"className": "Blood Hunter",
-			"classSource": "CR",
+			"classSource": "BH2020",
 			"subclassShortName": "Vampire",
-			"subclassSource": "OrderoftheVampire",
+			"subclassSource": "OrderVampire",
 			"level": 18,
 			"header": 2,
 			"entries": [
 				"At 18th level, you have wrestled your inner predator and mastered it. You can use your Hybrid Transformation feature an unlimited number of times, and your hybrid form can now last indefinitely. You also gain the Blood Curse of the Souleater for your Blood Maledict feature. This does not count against your number of blood curses known.",
-                "You always have spiderclimb active."
+                "You always have spiderclimb active.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Blood Curse of the Souleater|Blood Hunter|BH2020|Vampire|OrderVampire|18"
+                }
 			]
-		}
+		},
+        {
+            "name": "Blood Curse of the Souleater",
+			"source": "OrderVampire",
+			"className": "Blood Hunter",
+			"classSource": "BH2020",
+			"subclassShortName": "Vampire",
+			"subclassSource": "OrderVampire",
+			"level": 18,
+			"header": 2,
+            "entries": [
+                "When a creature that isn't a construct or undead is reduced to 0 hit points within 30 feet of you, you can use your reaction to siphon their blood power. Until the end of your next turn, your weapon attacks have advantage.",
+                {
+                    "name": "Amplify",
+                    "entries": [
+                        "You regain a use of your Brand of Castigation."
+                    ]
+                }
+            ]
+        }
 	]
 }
